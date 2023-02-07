@@ -4,7 +4,6 @@
     --black-button-color: #23272A;
     --white-button-color: #FFFFFF;
     --light-button-color: #7289DA;
-
 }
 /* RESET */
 * {
@@ -67,6 +66,7 @@ body {
 .align-center {
     align-items: center;
 }
+/* COMMON */
 
 /* Layout */
 
@@ -78,14 +78,12 @@ body {
 .small-bt {
     font-size: 1rem;
     padding: 1rem 1.5rem;
-    max-width: 100%;
     border-radius: 2rem;
 }
 
 .big-bt {
     font-size: 1.5rem;
     padding: 1.2rem 2rem;
-    max-width: 100%;
     border-radius: 4rem;
 }
 
@@ -93,25 +91,18 @@ body {
     background-color: var(--white-button-color);
     color: black;
     display: inline-block;
-    max-width: 100%;
 }
 
 .black-bt {
     background-color: var(--black-button-color);
     color: white;
     display: inline-block;
-    max-width: 100%;
 }
 
 .light-bt {
     background-color: var(--light-button-color);
     color: white;
     display: inline-block;
-    max-width: 100%;
-}
-
-.wave-w {
-    color: white;
 }
 
 .icons {
@@ -119,6 +110,7 @@ body {
     font-size: 1.6rem;
     letter-spacing: .5rem;
 }
+/* /Layout */
 
 /* HEADER */
 .background {
@@ -145,7 +137,7 @@ div .logo {
 }
 
 div .nav {
-    width: 45%;
+    width: 60%;
     text-align: center;
     padding: 5px;
     color: white;
@@ -187,9 +179,9 @@ header .container p {
 .button-section {
     margin: 2rem;
 }
+/* /HEADER */
 
-/* MAIN */
-/* Common */
+/* Common main */
 .light-bg{
     padding: 10rem 0;
 }
@@ -215,7 +207,8 @@ header .container p {
 .img-big {
     width: 100%;
 }
-/* /Common */
+/* /Common main */
+/* MAIN */
 main .container {
     height: 100%;
 }
@@ -259,9 +252,7 @@ div.rev-container {
 .dark-bg-big{
     padding-top: 2rem;
     padding-bottom: 2rem;
-    /* debug */
     background-color: lightgray;
-
 }
 
 .stars-bg h3 {
@@ -272,9 +263,11 @@ footer {
     background-color: #23272A;
     padding-top: 1rem;
 }
+
 footer .container.flex {
     height: 80%;
 }
+
 .l-col {
     width: 25%; 
     padding: 2rem 0;
@@ -283,8 +276,8 @@ footer .container.flex {
 .col {
     padding: 2rem 0;
     color: #FFFFFF;
-    /* width: 15%; */
 }
+
 .l-col h3 {
     font-size: 2.6rem;
     color: #7289DA;
