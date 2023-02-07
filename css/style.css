@@ -28,6 +28,9 @@ body {
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.pt-b2 {
+    padding: 2rem 0;
+}
 
 .m2 {
     margin: 0 2rem;
@@ -64,6 +67,7 @@ body {
 .align-center {
     align-items: center;
 }
+
 /* Layout */
 
 .container {
@@ -108,6 +112,12 @@ body {
 
 .wave-w {
     color: white;
+}
+
+.icons {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    letter-spacing: .5rem;
 }
 
 /* HEADER */
@@ -259,7 +269,6 @@ div.rev-container {
 }
 
 footer {
-    /* height: 1000px; */
     background-color: #23272A;
     padding-top: 1rem;
 }
@@ -267,36 +276,53 @@ footer .container.flex {
     height: 80%;
 }
 .l-col {
-    width: 30%;
+    width: 25%; 
+    padding: 2rem 0;
 }
 
 .col {
-    background-color: grey;
-    width: 15%;
+    padding: 2rem 0;
+    color: #FFFFFF;
+    /* width: 15%; */
 }
 .l-col h3 {
-    font-size: 3rem;
+    font-size: 2.6rem;
     color: #7289DA;
+    padding-top: 3rem 0;
+    margin-bottom: 1rem 0;
+}
+
+.l-col img {
+    height: 1.2rem;
+    align-self: center;
+    padding-right: .5rem;
+}
+.l-col span {
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+li h4 {
+    font-size: 1.2rem;
+    color: #7289DA;
+    padding-top: 3rem 0;
+    margin-bottom: 1rem 0;
+}
+
+.col li {
+    padding: .6rem;
 }
 
 .footer-banner {
     height: calc(20% - 3rem);
     margin-top: 3rem;
-    border-top: 1px solid white;
+    border-top: 1px solid var(--light-button-color);
     align-items: flex-end;
 
 }
 
-footer .footer-banner .container{
-    height: 80%;
-    justify-content: space-between;
-    background-color: cyan;
-    align-items: center;
-}
-
-
-button.brd-dashed, .footer-banner .logo {
-    background-color: pink;
-    padding: 5px;
-    font-size: 2rem;  
+.footer-banner {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
 }
