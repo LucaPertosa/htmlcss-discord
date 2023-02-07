@@ -60,15 +60,15 @@ body {
 }
 
 .small-bt {
-    font-size: 1.8rem;
+    font-size: 1rem;
     padding: 1rem 1.5rem;
     max-width: 100%;
-    border-radius: 4rem;
+    border-radius: 2rem;
 }
 
 .big-bt {
-    font-size: 2rem;
-    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    padding: 1.2rem 2rem;
     max-width: 100%;
     border-radius: 4rem;
 }
@@ -94,6 +94,10 @@ body {
     max-width: 100%;
 }
 
+.wave-w {
+    color: white;
+}
+
 /* HEADER */
 .background {
     height: 100px;
@@ -104,7 +108,7 @@ body {
 
 header .container {
     height: 100%;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     align-items: center;
 }
 
@@ -133,9 +137,9 @@ div .login {
 
 .jumbo {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 10rem;
     background-image: url(../img/jumbo.png);
-    height: 800px;
+    height: 100%;
     background-size: cover;
 }
 .jumbo .container {
@@ -144,14 +148,19 @@ div .login {
     color: white;
 }
 
-.container h1 {
-    font-size: 5rem;
+.jumbo h1 {
+    font-size: 3.5rem;
     padding: 3rem 0;
 }
 
-.container p {
-    font-size: 2.3rem;
-    line-height: 4rem;
+header .container p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.rev-container p {
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 .button-section {
@@ -159,23 +168,30 @@ div .login {
 }
 
 /* MAIN */
-
+/* Common */
 .light-bg{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    /* debug */
-    background-color: lightyellow;
-    height: 750px;
+    padding-top: 5rem;
 }
 
 .dark-bg{
     padding-top: 2rem;
-    padding-bottom: 2rem;
     /* debug */
-    background-color: lightgray;
+    background-color: #D3D3D3;
     height: 750px;
 }
+.bigtext {
+    font-size: 3.5rem;
+}
 
+.wave {
+    margin-bottom: -5px;
+}
+
+.wave2 {
+    margin-bottom: -5px;
+    transform: rotate(180deg);
+}
+/* /Common */
 main .container {
     height: 100%;
 }
@@ -186,16 +202,14 @@ div.rev-container {
     margin: 0 auto;
     flex-direction: row-reverse;
 }
-.cyan {
-    background-color: cyan;
-    height: 100%;
+.img-s1{
     width: 65%;
 }
 
-.pink {
-    background-color: palevioletred;
-    height: 100%;
-    width: 35%;
+.txt-area {
+    width: 40%;
+    align-self: center;
+    font-size: 1.5rem;
 }
 
 .green {
