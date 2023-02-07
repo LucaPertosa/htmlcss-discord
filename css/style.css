@@ -45,12 +45,24 @@ body {
     justify-content: space-around;
 }
 
+.row {
+    flex-direction: row;
+}
+
 .column {
     flex-direction: column;
 }
 
+.rev-column {
+    flex-direction: column-reverse;
+}
+
 .flex-center {
     justify-content: center;
+}
+
+.align-center {
+    align-items: center;
 }
 /* Layout */
 
@@ -139,7 +151,6 @@ div .login {
     padding-top: 2rem;
     padding-bottom: 10rem;
     background-image: url(../img/jumbo.png);
-    height: 100%;
     background-size: cover;
 }
 .jumbo .container {
@@ -170,17 +181,16 @@ header .container p {
 /* MAIN */
 /* Common */
 .light-bg{
-    padding-top: 5rem;
+    padding: 10rem 0;
 }
 
 .dark-bg{
-    padding-top: 2rem;
-    /* debug */
+    padding: 5rem 0;
     background-color: #D3D3D3;
-    height: 750px;
 }
 .bigtext {
     font-size: 3.5rem;
+    margin: 2rem 0;
 }
 
 .wave {
@@ -190,6 +200,10 @@ header .container p {
 .wave2 {
     margin-bottom: -5px;
     transform: rotate(180deg);
+}
+
+.img-big {
+    width: 100%;
 }
 /* /Common */
 main .container {
@@ -207,10 +221,25 @@ div.rev-container {
 }
 
 .txt-area {
-    width: 40%;
+    width: 35%;
     align-self: center;
     font-size: 1.5rem;
 }
+
+.txt-area-big {
+    width: 100%;
+    align-self: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.stars-bg {
+    background-image: url(../img/stars.svg) ;
+
+    font-size: 1.5rem;
+    background-size: cover;
+}
+
 
 .green {
     background-color: green;
@@ -222,26 +251,32 @@ div.rev-container {
     padding-bottom: 2rem;
     /* debug */
     background-color: lightgray;
-    height: 950px;
+
+}
+
+.stars-bg h3 {
+    padding: 1rem 2rem;
 }
 
 footer {
-    height: 1000px;
-    background-color: darkslategray;
+    /* height: 1000px; */
+    background-color: #23272A;
     padding-top: 1rem;
-    border-bottom: 1px solid white;
 }
 footer .container.flex {
     height: 80%;
 }
-.big-col {
-    width: 40%;
-    background-color: lightcoral;
+.l-col {
+    width: 30%;
 }
 
 .col {
     background-color: grey;
     width: 15%;
+}
+.l-col h3 {
+    font-size: 3rem;
+    color: #7289DA;
 }
 
 .footer-banner {
